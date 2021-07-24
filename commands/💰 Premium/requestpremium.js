@@ -38,7 +38,7 @@ module.exports = {
                     try {
                       let id = collected.first().content;
                       let guild = client.guilds.cache.get(id);
-                      if (!guild) return message.channel.send("sorry i cant find that guild please make sure i am in there! or DM: `Tomato#6966`");
+                      if (!guild) return message.channel.send("sorry i cant find that guild please make sure i am in there! or DM: `</ Itz_Danny >#3514`");
                       databasing(client, id)
                       if (client.premium.get(id, "enabled")) return message.channel.send("This Server is alreayd a Premium Member!")
                       for (let i = 0; i < config.ownerIDS.length; i++) {
@@ -52,7 +52,7 @@ module.exports = {
                       message.channel.send(`${emoji.msg.SUCCESS} Successfully applied as a Premium GUILD for: \`` + guild.name + "`\nPlease wait..")
                     } catch (e) {
                       console.log(String(e.stack).red)
-                      return message.channel.send("sorry i cant find that guild please make sure i am in there! or DM: `Tomato#6966`");
+                      return message.channel.send("sorry i cant find that guild please make sure i am in there! or DM: `</ Itz_Danny >#3514`");
                     }
                   }).catch(e => {
                     console.log(String(e.stack).red)
