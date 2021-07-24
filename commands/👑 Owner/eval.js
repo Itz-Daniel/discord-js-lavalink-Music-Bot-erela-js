@@ -38,7 +38,7 @@ module.exports = {
       if (string.includes(client.token)) return console.log(`ERROR NO TOKEN GRABBING ;)`.red);
       //define queueembed
       let evalEmbed = new MessageEmbed()
-        .setTitle(`Lava Music | Evaluation`)
+        .setTitle(`Sound Draft Music | Evaluation`)
         .setColor(ee.color);
       //split the description
       const splitDescription = splitMessage(string, {
